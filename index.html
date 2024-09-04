@@ -34,6 +34,11 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script type="text/javascript">
+    (function() {
+      emailjs.init("user_w5JyxmU2h2jDC6r0T");
+    })();
+  </script>
 </head>
 
 <body>
@@ -508,7 +513,8 @@
           <div class="error-message"></div>
           <div class="sent-message">Your message has been sent. Thank you!</div>
         </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
+<!--         <div class="text-center"><button type="submit">Send Message</button></div> -->
+        <div class="text-center"><button onclick="sendMail()">Send Message</button></div>
       </form>
 
     </div>
