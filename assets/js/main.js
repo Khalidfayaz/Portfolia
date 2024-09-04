@@ -260,6 +260,6 @@ function sendMail() {
     message : document.getElementById("message").value
   }
   emailjs.send("service_8kc9ffw", "template_ed95czq", params).then(function (res) {
-    alert("Success! " + res.ststus);
+    alert("Success! " + res.status);
   })
 }
