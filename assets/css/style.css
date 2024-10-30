@@ -20,8 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-/*   background: #040404 url("../img/bg.jpg") top right no-repeat; */
-  background: #040404 url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fblack-animated-background&psig=AOvVaw37OWzZ3RSZdawW_zwg4Dxa&ust=1730377224486000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCCutOLtokDFQAAAAAdAAAAABAZ") top right no-repeat;
+  background: #040404 url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
